@@ -25,7 +25,6 @@ if you use Laravel Nova 4 [Custom Menu](https://nova.laravel.com/docs/customizat
 \HenryAvila\Changelog\Changelog::make()->menu($request),
 ```
 
-
 ## Preview
 The following CHANGELOG.md file
 ```markdown
