@@ -3,7 +3,7 @@ A Laravel Nova 4 tool to display the content of the file [CHANGELOG.md](CHANGELO
 
 ## Install
 ```bash
-composer require henryavila/laravel-nova-changelog
+composer require jmztaylor/laravel-nova-changelog
 ```
 
 
@@ -47,4 +47,4 @@ ao [Controle de versão semântica](https://semver.org/spec/v2.0.0.html).
 ```
 
 Will be displayed in Laravel Nova as:
-![image](https://github.com/henryavila/laravel-nova-changelog/assets/8429941/9cd72fdf-02dd-4ffa-89cd-9d9543aec362)
+![image](https://github.com/Node-Dog-Consulting/laravel-nova-changelog/assets/8429941/9cd72fdf-02dd-4ffa-89cd-9d9543aec362)

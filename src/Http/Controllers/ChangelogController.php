@@ -17,7 +17,6 @@ class ChangelogController extends \App\Http\Controllers\Controller
         }
 
         $changelogMarkdown = file_get_contents($changelogFile);
-        ray($changelogMarkdown);
 
         return (new CommonMarkConverter())->convert($changelogMarkdown);
     }
