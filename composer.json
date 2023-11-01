@@ -1,5 +1,5 @@
 {
-    "name": "henryavila/laravel-nova-changelog",
+    "name": "jmztaylor/laravel-nova-changelog",
     "description": "A Laravel Nova tool that display the content of the changelog file",
     "keywords": [
         "laravel",
