@@ -10,7 +10,7 @@ class ChangelogController extends \App\Http\Controllers\Controller
 {
     public function __invoke()
     {
-        $changelogFile = base_path().'/CHANGELOG.md';
+        $changelogFile = public_path() . '/CHANGELOG.md';
 
         if (! file_exists($changelogFile)) {
             file_put_contents($changelogFile, '## [Unreleased]');
