@@ -12,10 +12,6 @@ class ChangelogController extends \App\Http\Controllers\Controller
     {
         $changelogFile = public_path() . '/CHANGELOG.md';
 
-        if (! file_exists($changelogFile)) {
-            file_put_contents($changelogFile, '## [Unreleased]');
-        }
-
         $changelogMarkdown = file_get_contents($changelogFile);
 
         return (new CommonMarkConverter())->convert($changelogMarkdown);
